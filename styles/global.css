@@ -1,3 +1,8 @@
+* {
+  all: unset; 
+  display: revert;
+}
+
 *,
 *::before,
 *::after {
@@ -27,6 +32,9 @@ blockquote {
 
 a {
   color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 1px;
 }
 
 img {
